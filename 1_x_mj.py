@@ -6,3 +6,6 @@
 
 #Phase 3
 ## Use Python and Jupyter Notebook to deploy a Machine Learning Model.
+
+#Phase 4
+## Use README in github and Google Slides to report findings in a final presentation.
