@@ -3,3 +3,6 @@
 
 #Phase 2
 ## Load data into database (Postgres) and upload the database into SQL.
+
+#Phase 3
+## Use Python and Jupyter Notebook to deploy a Machine Learning Model.
