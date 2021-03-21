@@ -1,4 +1,5 @@
-# final-group-project
+# From Billboard to Grammy
+## Can weeks on the Billboard Top 100, peak position on the chart, gender, or time at the top spot predict a Grammy win for a song? 
 
 # Communication Protocol
 Our group will communicate primarily via slack, with scheduled zoom meetings outside of class when necessary.  We have shared cell phone numbers in case of urgent questions, but will use slack for the majority of group communications
