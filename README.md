@@ -1,6 +1,13 @@
 # From Billboard to Grammy
 ## Can weeks on the Billboard Top 100, peak position on the chart, gender, or time at the top spot predict a Grammy win for a song? 
 
+Each week, the Billboard Top 100 ranks the best songs from multiple genres into a published list. Songs float on and off, with only a few every taking the top spot. However, the top spot doesn’t guarantee more than a moment of recognition. Using Top 100 Data and Grammy Winners from the past 20 years, our team will analyze datasets to determine if a Grammy winner can be determined based on the Billboard Top 100. 
+
+The datasets to be used include weekly top 100 songs from 1999 through 2018 and Grammy winners from 1999 through 2018. We will use logistic regression and machine learning to determine if winners can be predicted based on Billboard information. 
+
+Our team selected this topic during the recent Grammy award show on March 14, 2021. The inspiration came from the randomness of the winners, as several songs beat others which our group thought to be popular. Additionally, music brings the world together, and during these times, we can all use a little more music and song. 
+
+
 # Communication Protocol
 Our group will communicate primarily via slack, with scheduled zoom meetings outside of class when necessary.  We have shared cell phone numbers in case of urgent questions, but will use slack for the majority of group communications
 
