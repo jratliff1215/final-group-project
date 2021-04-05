@@ -17,7 +17,7 @@ Our group will communicate primarily via slack, with scheduled zoom meetings out
 - How are you training your model?
   - We are training our model using a SQL database containing 15 out of the 20 years included in the original dataset.  We will then use the data for the remaining 5 years to test that model.
 - What is the model's accuracy?
-  - 0.8461538461538461
+  - 0.9411764705882353
 - How does this model work?
   - This model takes in data from our database and removes the column we wish to predict.  The model is then trained using the data, and predicts the outcomes based on the training. 
 
