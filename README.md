@@ -15,6 +15,8 @@ Our group will communicate primarily via slack, with scheduled zoom meetings out
 # Data Exploration and Analysis
 Upon finding the data, the Team selected Excel to initally explore the data and identify general trends. Excel is not a popular tool for large file exploration or significant file combinations. However, the inital Excel exploration did provide the Team with initial ideas on how to approach the combination and further exploration of the data sets. Once the inital exploration provided some data insight, the Team moved the information to Python and Jupyter notebook for futher analysis. Postgres joins were completed to provide a basis for the machine learning. 
 
+Tableau tables and charts have been constructed to provide visualizations of the dataset. These charts show trends between weeks on the Billboard chart, peak position on the chart, and age of the song at the time of the Grammys. Each chart provides an interactive feature such as genre filtering or Grammy year view reduction. These features allow the user to filter by their favorite genre or compare changes across years. 
+
 # Machine Learing Model Questions
 - Which model did you choose and why?
   - We chose the logistic regression model because it is used to predict binary outcomes, and the goal of our project is to predict whether or not an artist that is on the Billboard Top 100 Chart will win a Grammy.
@@ -28,5 +30,8 @@ Upon finding the data, the Team selected Excel to initally explore the data and 
   - This model takes in data from our database and removes the column we wish to predict.  The model is then trained using the data, and predicts the outcomes based on the training. 
 - If there are statistics involved, what stats are being included in analysis and why?
   - To illustrate how accurate the Machine Learning Model is, we are including the accuracy of the MLM, 94.12%. This shows that the MLM will accurately predict whether an artist will receive a grammy based on their Billboard Top 100 Chart performance 94.12% of the time. With more time, it will be useful to including both the F1 score and confusion matrix to further assess the precision and sensitivity of the MLM. 
+
+# Presentation
+The [Google slides](https://docs.google.com/presentation/d/1gNiLVhv1PRAzBwcYhDEzvymbgdiNwZT_MBioeOvYKPA/edit#slide=id.gce7da8c980_0_82) are currently in draft mode and will continued to be finalized throughout the next two weeks. 
 
 (1) Source: Billboard Chart Beat; https://www.billboard.com/articles/columns/chart-beat/6746273/first-billboard-issue-november-1-1894
