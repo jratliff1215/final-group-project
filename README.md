@@ -18,7 +18,6 @@ Upon finding the data, the Team selected Excel to initally explore the data and 
 # Machine Learing Model Questions
 - Which model did you choose and why?
   - We chose the logistic regression model because it is used to predict binary outcomes, and the goal of our project is to predict whether or not an artist that is on the Billboard Top 100 Chart will win a Grammy.
-
 - Preprocessing
   -   Using two different datasets poses multiple challenges for cleaning. Discepansies in names of both artists and songs, and duplicate entries were the primary features that needed to be addressed before working with the data. Next, we determined the relevent columns in both datasets: "Name (of artist), Name (of song), Weeks on Billboard, Peak Position on Billboard, Grammy Win (Yes/No) to be useful for our MLM.
 - How are you training your model?
@@ -28,6 +27,6 @@ Upon finding the data, the Team selected Excel to initally explore the data and 
 - How does this model work?
   - This model takes in data from our database and removes the column we wish to predict.  The model is then trained using the data, and predicts the outcomes based on the training. 
 - If there are statistics involved, what stats are being included in analysis and why?
-  - To illustrate how accurate the MLM is, we are including the accuracy of the MLM, 94.12%. This shows that the MLM will accurately predict whether an artist will receive a grammy based on their Billboard Top 100 Chart performance 94.12% of the time. With more time, it will be useful to including both the F1 score and confusion matrix to further assess the precision and sensitivity of the MLM. 
+  - To illustrate how accurate the Machine Learning Model is, we are including the accuracy of the MLM, 94.12%. This shows that the MLM will accurately predict whether an artist will receive a grammy based on their Billboard Top 100 Chart performance 94.12% of the time. With more time, it will be useful to including both the F1 score and confusion matrix to further assess the precision and sensitivity of the MLM. 
 
 (1) Source: Billboard Chart Beat; https://www.billboard.com/articles/columns/chart-beat/6746273/first-billboard-issue-november-1-1894
