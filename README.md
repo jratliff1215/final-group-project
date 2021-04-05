@@ -14,7 +14,6 @@ Our group will communicate primarily via slack, with scheduled zoom meetings out
 # Machine Learing Model Questions
 - Which model did you choose and why?
   - We chose the logistic regression model because it is used to predict binary outcomes, and the goal of our project is to predict whether or not an artist that is on the Billboard Top 100 Chart will win a Grammy.
-
 - Preprocessing
   -   Using two different datasets poses multiple challenges for cleaning. Discepansies in names of both artists and songs, and duplicate entries were the primary features that needed to be addressed before working with the data. Next, we determined the relevent columns in both datasets: "Name (of artist), Name (of song), Weeks on Billboard, Peak Position on Billboard, Grammy Win (Yes/No) to be useful for our MLM.
 - How are you training your model?
