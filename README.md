@@ -20,7 +20,7 @@ Our group will communicate primarily via slack, with scheduled zoom meetings out
   - 0.9411764705882353
 - How does this model work?
   - This model takes in data from our database and removes the column we wish to predict.  The model is then trained using the data, and predicts the outcomes based on the training. 
-If there are statistics involved, what stats are being included in analysis and why?
+- If there are statistics involved, what stats are being included in analysis and why?
  - To illustrate how accurate the MLM is, we are including the accuracy of the MLM, 94.12%. This shows that the MLM will accurately predict whether an artist will receive a grammy based on their Billboard Top 100 Chart performance 94.12% of the time. With more time, it will be useful to including both the F1 score and confusion matrix to further assess the precision and sensitivity of the MLM. 
 
 
