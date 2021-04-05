@@ -7,9 +7,13 @@ The datasets to be used include weekly top 100 songs from 1999 through 2018 and 
 
 Our team selected this topic during the recent Grammy award show on March 14, 2021. The inspiration came from the randomness of the winners, as several songs beat others which our group thought to be popular. Additionally, music brings the world together, and during these times, we can all use a little more music and song. 
 
+The data was provide on Kaggle.com. A total of eight files were provided with music information from sources such as Spotify, Pandora, and International Charts. Our team selected Billboard Top 100 to compare against the Grammy winner file. The Billboard Top 100 data was selected for two reasons. The Billboard Charts have been available since 1958, with the Billboard Top 10 dating back to 1894 (1). Other options available are recent additions to music tracking and charts, thus determined to not provide sufficient inital data nor provide the ability to track further back in history for machine learning training. Second, the Team selected the Billboard Top 100 for how the songs are selected to be on the chart. Like the Grammys, the Billboard Top 100 is chosen each week by a committee and not computer processing. This similarity matched the data sets on a basic compilation level. 
 
 # Communication Protocol
 Our group will communicate primarily via slack, with scheduled zoom meetings outside of class when necessary.  We have shared cell phone numbers in case of urgent questions, but will use slack for the majority of group communications
+
+# Data Exploration and Analysis
+Upon finding the data, the Team selected Excel to initally explore the data and identify general trends. Excel is not a popular tool for large file exploration or significant file combinations. However, the inital Excel exploration did provide the Team with initial ideas on how to approach the combination and further exploration of the data sets. Once the inital exploration provided some data insight, the Team moved the information to Python and Jupyter notebook for futher analysis. Postgres joins were completed to provide a basis for the machine learning. 
 
 # Machine Learing Model Questions
 - Which model did you choose and why?
@@ -26,3 +30,4 @@ Our group will communicate primarily via slack, with scheduled zoom meetings out
 - If there are statistics involved, what stats are being included in analysis and why?
   - To illustrate how accurate the MLM is, we are including the accuracy of the MLM, 94.12%. This shows that the MLM will accurately predict whether an artist will receive a grammy based on their Billboard Top 100 Chart performance 94.12% of the time. With more time, it will be useful to including both the F1 score and confusion matrix to further assess the precision and sensitivity of the MLM. 
 
+(1) Source: Billboard Chart Beat; https://www.billboard.com/articles/columns/chart-beat/6746273/first-billboard-issue-november-1-1894
