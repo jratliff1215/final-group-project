@@ -9,7 +9,7 @@ Our team selected this topic during the recent Grammy award show on March 14, 20
 
 
 # Communication Protocol
-Our group will communicate primarily via slack, with scheduled zoom meetings outside of class when necessary.  We have shared cell phone numbers in case of urgent questions, but will use slack for the majority of group communications
+Our group will communicate primarily via slack, with scheduled zoom meetings outside of class when necessary.  We have shared cell phone numbers in case of urgent questions, but will use slack for the majority of group communications.
 
 # Machine Learing Model Questions
 - Which model did you choose and why?
