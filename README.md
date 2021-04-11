@@ -26,7 +26,7 @@ Tableau tables and charts have been constructed to provide visualizations of the
 - How does this model work?
   - This model takes in data from our database and removes the column we wish to predict.  The model is then trained using the data, and predicts the outcomes based on the training. 
   - We are using X to predict y.
-      - y is the “GrammyAward” column, or the output
+      - y is the “GrammyAward” column, or the output.
       - X, or features, is created by dropping the “artists’’ and “name” columns from the DataFrame.
   - We use the train_test_split module to split X and y into training and testing sets: X_train, X_test, y_train, y_test. This allows us to compare the actual outcome values from the test set against the model's predicted values. 
 
