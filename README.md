@@ -95,8 +95,9 @@ Dashboard - Lijoy - 3 minutes:
 
 Results - Jennifer - 3 minutes:
 - Does the model work? Can wins be predicted with new data?
-  - Add in missing information with other data source
-  - Grammys started 1959 Billboard started 1894 - locate all possible historical data
+  - Billboard chart is limited to those songs that have exited completely for weeks on chart or those that have just entered. 
+  - Grammys started 1959 Billboard started 1894 - we could include multiple historical dataset
+  - Changes in the award categories and expansion to include other countries
 - Future features
   - Scraper to add weekly data and populate database each week
   - Use additional, modern data sets from spotify or pandora - does population streams have impact? 
