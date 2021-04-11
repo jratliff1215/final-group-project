@@ -3,10 +3,23 @@
 
 Each week, the Billboard Top 100 ranks the best songs from multiple genres into a published list. However, the top spot doesn’t guarantee more than a moment of recognition. Using Top 100 Data and Grammy Winners from the past 20 years, our team will analyze datasets to determine if a Grammy winner can be determined based on the Billboard Top 100. Our team selected this topic during the recent Grammy award show on March 14, 2021. The inspiration came from the randomness of the winners, as several songs beat others which our group thought to be popular. Additionally, music brings the world together, and during these times, we can all use a little more music and song.
 
+
 The datasets to be used include weekly Billboard Hot 100 songs from 1999 through 2018, and Grammy winners from 1999 through 2018. We will use logistic regression and machine learning to determine if winners can be predicted based on Billboard information. The data was found on Kaggle.com. A total of eight files were provided with music information from sources such as Spotify, Pandora, and International Charts. Our team selected Billboard Top 100 to compare against the Grammy winner file. The Billboard Top 100 data was selected for two reasons. The Billboard Charts have been available since 1958, with the Billboard Top 10 dating back to 1894 (1). Other options available are recent additions to music tracking and charts, thus determined to not provide sufficient inital data nor provide the ability to track further back in history for machine learning training. Second, the Team selected the Billboard Top 100 for how the songs are selected to be on the chart. Like the Grammys, the Billboard Top 100 is chosen each week by a committee and not consumer activity. 
 
 # Data Exploration and Analysis
-Upon finding the data, the Team selected Excel to initially explore the data and identify general trends. Once the initial exploration provided some data insight, the Team moved the information to Python and Jupyter notebook for futher analysis. Postgres joins were completed to provide the final dataset to be used for our machine learning model. 
+
+The datasets to be used include weekly top 100 songs from 1999 through 2018 and Grammy winners from 1999 through 2018. We will use logistic regression and machine learning to determine if winners can be predicted based on Billboard information. 
+
+Our team selected this topic during the recent Grammy award show on March 14, 2021. The inspiration came from the randomness of the winners, as several songs beat others which our group thought to be popular. Additionally, music brings the world together, and during these times, we can all use a little more music and song. 
+
+The data was provide on Kaggle.com. A total of eight files were provided with music information from sources such as Spotify, Pandora, and International Charts. Our team selected Billboard Top 100 to compare against the Grammy winner file. The Billboard Top 100 data was selected for two reasons. The Billboard Charts have been available since 1958, with the Billboard Top 10 dating back to 1894 (1). Other options available are recent additions to music tracking and charts, thus determined to not provide sufficient initial data nor provide the ability to track further back in history for machine learning training. Second, the Team selected the Billboard Top 100 for how the songs are selected to be on the chart. Like the Grammys, the Billboard Top 100 is chosen each week by a committee and not computer processing. This similarity matched the data sets on a basic compilation level. 
+
+# Communication Protocol
+Our group will communicate primarily via slack, with scheduled zoom meetings outside of class when necessary.  We have shared cell phone numbers in case of urgent questions, but will use slack for the majority of group communications.
+
+# Data Exploration and Analysis
+Upon finding the data, the Team selected Excel to initially explore the data and identify general trends. Excel is not a popular tool for large file exploration or significant file combinations. However, the initial Excel exploration did provide the Team with initial ideas on how to approach the combination and further exploration of the data sets. Once the initial exploration provided some data insight, the Team moved the information to Python and Jupyter notebook for futher analysis. Postgres joins were completed to provide a basis for the machine learning. 
+
 
 Tableau tables and charts have been constructed to provide visualizations of the dataset. These charts show total number of grammy wins compared to the total weeks on the Billboard chart, peak position on the chart, year the song was released, and genre. We have also created a chart that compares the total weeks on the chart and grammy wins based on the song's genre. 
 
