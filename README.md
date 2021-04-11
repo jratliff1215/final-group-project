@@ -1,5 +1,5 @@
-# From Billboard to Grammy
-## Can weeks on the Billboard Top 100, peak position on the chart, gender, or time at the top spot predict a Grammy win for a song? 
+# From the Billboard Top 100 to the Grammy Awards
+## Does inclusion on the Billboard Hot 100 chart increase the likelihood that a song will win a Grammy award?
 
 Each week, the Billboard Top 100 ranks the best songs from multiple genres into a published list. Songs float on and off, with only a few every taking the top spot. However, the top spot doesn’t guarantee more than a moment of recognition. Using Top 100 Data and Grammy Winners from the past 20 years, our team will analyze datasets to determine if a Grammy winner can be determined based on the Billboard Top 100. 
 
