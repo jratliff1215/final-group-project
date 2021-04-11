@@ -18,13 +18,18 @@ Tableau tables and charts have been constructed to provide visualizations of the
 - Which model did you choose and why?
   - We chose the logistic regression model because it is used to predict binary outcomes, and the goal of our project is to predict whether or not an artist that is on the Billboard Top 100 Chart will win a Grammy.
 - Preprocessing
-  -   Using two different datasets poses multiple challenges for cleaning. Discepansies in names of both artists and songs, and duplicate entries were the primary features that needed to be addressed before working with the data. Next, we determined the relevent columns in both datasets: "Name (of artist), Name (of song), Weeks on Billboard, Peak Position on Billboard, Grammy Win (Yes/No) to be useful for our MLM.
+  -   Using two different datasets poses multiple challenges for cleaning. Discepansies in names of both artists and songs, and duplicate entries were the primary features that needed to be addressed before working with the data. Next, we determined the relevant columns in both datasets: "Name (of artist), Name (of song), Weeks on Billboard, Peak Position on Billboard, Grammy Win (Yes/No) to be useful for our MLM.
 - How are you training your model?
   - We are training our model using a SQL database containing 15 out of the 20 years included in the original dataset.  
 - What is the model's accuracy?
   - 0.9411764705882353
 - How does this model work?
   - This model takes in data from our database and removes the column we wish to predict.  The model is then trained using the data, and predicts the outcomes based on the training. 
+  - We are using X to predict y.
+      - y is the “GrammyAward” column, or the output
+      - X, or features, is created by dropping the “artists’’ and “name” columns from the DataFrame.
+  - We use the train_test_split module to split X and y into training and testing sets: X_train, X_test, y_train, y_test. This allows us to compare the actual outcome values from the test set against the model's predicted values. 
+
 - If there are statistics involved, what stats are being included in analysis and why?
   - To illustrate how accurate the Machine Learning Model is, we are including the accuracy of the MLM, 94.12%. This shows that the MLM will accurately predict whether an artist will receive a grammy based on their Billboard Top 100 Chart performance 94.12% of the time. With more time, it will be useful to including both the F1 score and confusion matrix to further assess the precision and sensitivity of the MLM. 
 
