@@ -23,7 +23,7 @@ Tableau tables and charts have been constructed to provide visualizations of the
 - Preprocessing
   -   Using two different datasets poses multiple challenges for cleaning. Discepansies in names of both artists and songs, and duplicate entries were the primary features that needed to be addressed before working with the data. Next, we determined the relevent columns in both datasets: "Name (of artist), Name (of song), Weeks on Billboard, Peak Position on Billboard, Grammy Win (Yes/No) to be useful for our MLM.
 - How are you training your model?
-  - We are training our model using a SQL database containing 15 out of the 20 years included in the original dataset.  We will then use the data for the remaining 5 years to test that model.
+  - We are training our model using a SQL database containing 15 out of the 20 years included in the original dataset.  
 - What is the model's accuracy?
   - 0.9411764705882353
 - How does this model work?
