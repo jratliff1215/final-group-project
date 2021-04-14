@@ -39,7 +39,7 @@ Benefits of this model are that it is simple to implement and make predictions f
 
 # Presentation Link
 - [Google Slides](https://docs.google.com/presentation/d/1gNiLVhv1PRAzBwcYhDEzvymbgdiNwZT_MBioeOvYKPA/edit#slide=id.gce7da8c980_0_82)
-- Tableau Dashboard - https://public.tableau.com/profile/jomol#!/vizhome/BillboardtoGrammyDashboard/Dashboard2?publish=yes
+- Tableau Dashboard - https://public.tableau.com/profile/jomol#!/vizhome/BillboardtoGrammyDashboard/BillboardtoGrammy?publish=yes
 
 # Presentation Outline
 Team Introductions - ALL - 1 minute:
