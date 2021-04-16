@@ -29,7 +29,8 @@ Benefits of this model are that it is simple to implement and make predictions f
 - Database Interfacing
   -  Our MLM interfaces with our data by using a Python string to load cleaned CSVs from a postgres database. We began by using Python to load the cleaned data into 3 Postgres tables - Billboard, Grammy, and Grammy Genre.  We then used a join statement to combine the billboard data with the grammy wins column and grammy genre column. Finally, we used a connection f-string to load this into our MLM.
 - Feature Engineering & Feature Selection
-  - In order to identify the necessary features, we dropped Variables: "weekly_rank", "writing_credits", "lyrics". These variables are not informative for our MLM analysis.
+  - In order to identify the necessary features and maximize the performance of the machine learning model, we dropped Variables: "weekly_rank", "writing_credits", "lyrics". 
+  - These variables were not informative for our logistic regression analysis. Dropping these unnecessary variables allowed for our machine learning model to easily read through the independent variables and increased our overall Accuracy Score from 84.62% to 94.12%.
 - Training & Testing Sets
   - We are using "X" to predict "y".  "y" is the “GrammyAward” column, or the output. "X", or features, is created by dropping the “artists’’ and “name” columns from the DataFrame. Next we used the train_test_split module to split X and y into training and testing sets: X_train, X_test, y_train, y_test.    
 - Model Traning
