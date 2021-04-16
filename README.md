@@ -36,6 +36,10 @@ Benefits of this model are that it is simple to implement and make predictions f
   -  We are comparing the actual outcome values from the test set against the model's predicted values. y_test are the outcomes (whether or not an artist that is on the Billboard Top 100 Chart will win a Grammy)from the original dataset that were set aside for testing. The model's predictions, y_pred, were compared with these actual values, y_test. Additional testing in the future can be performed using larger datasets containing Billboard and Grammy information from prior to the year 2000.  
 - Accuracy Score
   - 0.9411764705882353 (The accuracy score is simply the percentage of predictions that are correct.) The accuracy of the MLM, 94.12%. This shows that the MLM will accurately predict whether an artist will receive a grammy based on their Billboard Top 100 Chart performance 94.12% of the time.
+- Additional Analysis to Improve the Machine Learning Model
+  - Confusion Matrix
+    - To truly see the full scope of our machine learning model's predictions, it is useful to include both the F1 score and confusion matrix to further assess the precision and sensitivity of the machine learning model and gain a better understanding of the predictions that it makes. Analysis of both true and false negative results and positive results can strengthen the predictions we make about Grammy winner predictions based on inclusion in the Billboard Top 100.
+
 
 # Results
 
