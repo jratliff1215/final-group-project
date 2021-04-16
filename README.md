@@ -109,6 +109,10 @@ Dashboard - Lijoy - 3 minutes:
 
 - Tools used?
 - Dashboard walk through with features
+- •	Interactive chart shows the correlation between weeks on chart and Grammy win for a specific Genre. 
+•	We can either look at a specific Genre or the consolidated view. 
+•	When you select pop music as the Genre, you can see that most Grammy wins were for the songs which were on chart for 20 to 30 weeks. For Country music also we are getting all most same results. 
+
 - Interactive features?
 
 
