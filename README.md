@@ -35,7 +35,8 @@ Benefits of this model are that it is simple to implement and make predictions f
 - Model Traning
   -  We are comparing the actual outcome values from the test set against the model's predicted values. y_test are the outcomes (whether or not an artist that is on the Billboard Top 100 Chart will win a Grammy)from the original dataset that were set aside for testing. The model's predictions, y_pred, were compared with these actual values, y_test. Additional testing in the future can be performed using larger datasets containing Billboard and Grammy information from prior to the year 2000.  
 - Accuracy Score
-  - 0.9411764705882353 (The accuracy score is simply the percentage of predictions that are correct.) The accuracy of the MLM, 94.12%. This shows that the MLM will accurately predict whether an artist will receive a grammy based on their Billboard Top 100 Chart performance 94.12% of the time.
+  - 0.9411764705882353 
+  - The accuracy score is simply the percentage of predictions that are correct. The accuracy of the logistic regression machine learning model is 94.12%. This shows that the machine learning model will accurately predict whether or not an artist will receive a grammy based on their Billboard Top 100 Chart performance 94.12% of the time.
 
 # Results
 
