@@ -95,7 +95,18 @@ The accuracy of the MLM, 94.12%. This shows that the MLM will accurately predict
   - Useful to include both the F1 score and confusion matrix to further assess the precision and sensitivity of the MLM.
 
 Dashboard - Lijoy - 3 minutes:
+
 - How was the Database created?
+
+•	We have taken Billboard and Grammy data set for our analysis
+•	To design our database we used quick database diagram tool.
+•	As a team we have decided to use Postgres as our database
+•	Used Python to clean Billboard and Grammy data set
+•	Loaded these cleaned CSVs into Postgres database using sqlalchemy
+•	Then performed a join between Billboard and Grammy tables to get one complete dataset.  
+•	Initially we didn’t add genre ,later we decided to add genre also into our final dataset  to check if genre has any impact on grammy awards, so performed these steps again in an iterative design mode to add genre.
+•	Now our final data set is ready in Postgres - We have used this for ML and in Tableau for dashboard creation. 
+
 - Tools used?
 - Dashboard walk through with features
 - Interactive features?
