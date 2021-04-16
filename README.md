@@ -108,14 +108,16 @@ Dashboard - Lijoy - 3 minutes:
 •	Now our final data set is ready in Postgres - We have used this for ML and in Tableau for dashboard creation. 
 
 - Tools used?
+•	We have used Tableau for creating our dashboard.
+
 - Dashboard walk through with features
-- •	Interactive chart shows the correlation between weeks on chart and Grammy win for a specific Genre. 
+•	Interactive chart shows the correlation between weeks on chart and Grammy win for a specific Genre. 
 •	We can either look at a specific Genre or the consolidated view. 
-•	When you select pop music as the Genre, you can see that most Grammy wins were for the songs which were on chart for 20 to 30 weeks. For Country music also we are getting all most same results. 
+•	When you select pop music as the Genre, you can see that most Grammy wins were for the songs which were on chart for 20 to 30 weeks. For Country music also we        are getting all most same results. 
 
 - Interactive features?
-- •	To help users who are color blind, we have added the color-blind view of the chart.
-- . You can enable this feature by making the Color-blind option to YES.
+ •	To help users who are color blind, we have added the color-blind view of the chart.
+ . You can enable this feature by making the Color-blind option to YES.
 
 
 Results - Jennifer - 3 minutes:
