@@ -114,6 +114,8 @@ Dashboard - Lijoy - 3 minutes:
 •	When you select pop music as the Genre, you can see that most Grammy wins were for the songs which were on chart for 20 to 30 weeks. For Country music also we are getting all most same results. 
 
 - Interactive features?
+- •	To help users who are color blind, we have added the color-blind view of the chart.
+- . You can enable this feature by making the Color-blind option to YES.
 
 
 Results - Jennifer - 3 minutes:
