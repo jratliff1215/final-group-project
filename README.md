@@ -9,7 +9,16 @@ The datasets to be used include weekly Billboard Hot 100 songs from 1999 through
 # Data Exploration and Analysis
 Upon finding the data, the Team selected Excel to initially explore the data and identify general trends. Excel is not a popular tool for large file exploration or significant file combinations. However, the initial Excel exploration did provide the Team with initial ideas on how to approach the combination and further exploration of the data sets. Once the initial exploration provided some data insight, the Team moved the information to Python and Jupyter notebook for futher analysis. Postgres joins were completed to provide a basis for the machine learning. 
 
+<img src="https://github.com/jratliff1215/final-group-project/blob/main/Final_Project/week_chart.png" width="500" height="320"> 
+The image above shows weeks on chart (grouped) for all songs included in Billboard Chart. A regression was completed to determine correlation between weeks on chart and a Grammy win. With a r vlue of 0.0008, the team determined this was not conclusive to confirm our hypothesis. 
+
+
+<img src="https://github.com/jratliff1215/final-group-project/blob/main/Final_Project/peak_position.png" width="500" height="320"> 
+The image above groups the peak position on the Billboard chart to a Grammy win. As with the weeks on chart, this was inconclusive in determining Grammy winners from the peak position on the Billboard Chart, with a r value of 0.14. 
+
 Tableau tables and charts have been constructed to provide visualizations of the dataset. These charts show total number of grammy wins compared to the total weeks on the Billboard chart, peak position on the chart, year the song was released, and genre. We have also created a chart that compares the total weeks on the chart and grammy wins based on the song's genre. 
+
+<img src="https://github.com/jratliff1215/final-group-project/blob/main/Final_Project/Tableau_Chart.PNG" width="500" height="320"> 
 
 # Machine Learing Model Questions
 - Model Selection
