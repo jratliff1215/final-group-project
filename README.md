@@ -39,6 +39,7 @@ Benefits of this model are that it is simple to implement and make predictions f
   - 0.9411764705882353 
   - The accuracy score is simply the percentage of predictions that are correct. The accuracy of the logistic regression machine learning model is 94.12%. This shows that the machine learning model will accurately predict whether or not an artist will receive a grammy based on their Billboard Top 100 Chart performance 94.12% of the time.
 
+
 # Results
 
 Our final model provided an accuracy result of 94.12%. We determined this was significant and to not reject our hypothesis that Billboard Chart information can be used to predict Grammy Winners. In comparison to the original analysis we completed, and as discussed by Hayley, that showed little or no correlation based on numbers, this model allows the user to be comfortable with their prediction. As it is well known, simply looking at a data point, it cannot be assumed what the outcome will be. For example, four-time Grammy Winner Michael Bublé has never been in the Top 20 of the Hot 100 Chart and never exceeded more than 10 weeks on the chart. For the reverse, the international YouTube sensation of Gangnam Style reached the second spot on the chart, remained there for 4 weeks, and spent over 35 weeks on the Hot 100, did NOT win a Grammy. 
